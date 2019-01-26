@@ -4,8 +4,6 @@ plugins {
     id("kotlin-android-extensions")
 }
 
-apply(from = "original.build.gradle")
-
 android {
     compileSdkVersion(28)
     defaultConfig {
